@@ -1,13 +1,13 @@
 Flask==3.0.3
 flask-cors==4.0.0
 pymongo>=4.9,<5.0
+
 langdetect==1.0.7
+
 transformers==4.43.3
-tokenizers==0.19.1
+tokenizers==0.19.1 --only-binary=:all:
 torch==2.2.2
 google-generativeai==0.7.2
 python-dotenv==1.0.1
 gunicorn==21.2.0
 uvicorn==0.24.0
-fastapi==0.100.0
-httpx==0.24.1
