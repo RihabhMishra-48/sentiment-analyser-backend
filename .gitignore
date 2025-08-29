@@ -1,0 +1,18 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.env
+.venv/
+venv/
+
+# VSCode artifacts
+.vscode/
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyd
+*$py.class
